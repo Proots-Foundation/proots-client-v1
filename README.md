@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬
+![pRoots](https://shdw-drive.genesysgo.net/GQgzES46dokK55rXpNsKVynEevcztAqV2cHC2aB8PxTp/%E6%88%AA%E5%9C%96%202022-09-03%20%E4%B8%8B%E5%8D%882.47.58.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**[pRoots](https://www.biocreator.tw/kit)** is a tool we build with web3 technology to store, share and learn genomic information. And we will aggregate the knowledge from the growing biocommunity and openbio projects with the DNA information as the cornerstone.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+Biology is software encoded in DNA. And most of the information is not easy to store, share, and annotated in a more open manner. As the cost of DNA sequencing and synthesis dropping dramatically, the tools to empower people to store, share and annotate is critical. In another way, as more and more DAOs raise funds for bioscience development and decentralized science, there will be also the necessity to build the infrastructure to deal with the related genomic data. pRoots will let biolabs, DAOs and amateur bioscientists easily allocate the web3 resource as the functionality to deal their sharable knowledge of genomic information.
 
-To learn more about Next.js, take a look at the following resources:
+## Teams
+In order to bridge the global biocommunity and web3 frontier to push the boundary of decentrazlied science in biotech, this pRoots were developed by the coworks between the global biocommunity fellow(biocreator.tw) and blockchain developer(https://soltricks.io/) to focus on current problems in open bioscience, especially, on the genomic data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Development Phase:
 
-## Deploy on Vercel
+ - Phase 1
+   - people will use pRoots to store DNA data (fasta, fastq, bam) as easily as possible in a decentralized storage system.
+enable DAOs and scientists who received crypto funds can use our tools to store, share and annotate their genomic data in a web3 manner
+people can view their DNA data such as plasmids from a browser with a useful viewer and store the metadata in a decentralized way
+bridging the current open bio community such as global biocommunity, freegan, iGEM to provide they to use this tool to store, share, and annotate in pRoots
+ - Phase 2
+   - provide an interactive way to let the genomic metadata connected and sharable, and aggregate the current important synthetic biology open plasmid data to bridge the web3 and current biocommunity.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳
