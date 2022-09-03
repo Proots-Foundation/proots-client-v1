@@ -14,14 +14,14 @@
 
 Biology is software encoded in DNA. And most of the information is not easy to store, share, and annotated in a more open manner. As the cost of DNA sequencing and synthesis dropping dramatically, the tools to empower people to store, share and annotate is critical. In another way, as more and more DAOs raise funds for bioscience development and decentralized science, there will be also the necessity to build the infrastructure to deal with the related genomic data. pRoots will let biolabs, DAOs and amateur bioscientists easily allocate the web3 resource as the functionality to deal their sharable knowledge of genomic information.
 
-## Teams
+## Team
 In order to bridge the global biocommunity and web3 frontier to push the boundary of decentrazlied science in biotech, this pRoots were developed by the coworks between the global biocommunity fellow(biocreator.tw) and blockchain developer(https://soltricks.io/) to focus on current problems in open bioscience, especially, on the genomic data.
 
 - [Weiting Lin](https://t.co/elU5wwOvpc)
-  - 2021 Global Biocommunity Fellow, and clinical pathologist with bioinformatic skills, previous work at cloud gneomic company such as GeneDock, DNArails and compassbioinfo
+  - BioCreator founder, 2021 Global Biocommunity Fellow, and clinical pathologist with bioinformatic skills, previously work at cloud gneomic company such as GeneDock, DNArails and compassbioinfo
 
 - [Chitaolang](https://twitter.com/chitaolang)
- - senior blockchain developer and 2022 Hackathon 3.0| Solana Asia Series DeFi 1st place, and previos work soltrick(soltrick.io)
+  - senior blockchain developer and 2022 Hackathon 3.0| Solana Asia Series DeFi 1st place, and previos work soltrick(soltrick.io)
 
 
 ## Development Phase:
