@@ -7,6 +7,8 @@ import useFileUpload from 'react-use-file-upload'
 import seqparse from 'seqparse'
 
 import TopBar from '../components/TopBar'
+import Window from '../components/Window'
+import ContextMenu from '../components/ContextMenu'
 import { AnnotationProp } from '../types/genomic'
 
 const App: NextPage = () => {
@@ -17,6 +19,10 @@ const App: NextPage = () => {
   const [seq, setSeq] = useState<string>('')
   const [selected, setSelected] = useState<any>({})
   const [isLoading, setIsLoading] = useState<boolean>(false)
+
+  const [windowShow, setWindowShow] = useState<boolean>(false)
+  const [editType, setEditType] = useState<string>('Insert')
+  const [content, setContent] = useState<string>('')
 
   const [annotations, setAnnotations] = useState<AnnotationProp[]>([])
   const {
@@ -84,7 +90,13 @@ const App: NextPage = () => {
       </Head>
       <Flex justify="center" direction="column" h="100%">
         <TopBar setFiles={setFiles} />
-        <Flex w="100%" h="calc(100% - 3rem)" align="center" justify="center">
+        <Flex
+          w="100%"
+          h="calc(100% - 3rem)"
+          p="1rem"
+          align="center"
+          justify="center"
+        >
           {isLoading && (
             <Flex
               position="absolute"
@@ -119,6 +131,23 @@ const App: NextPage = () => {
             />
           )}
         </Flex>
+        <ContextMenu
+          onOpen={() => setWindowShow(true)}
+          selected={selected}
+          setEditType={setEditType}
+        />
+        <Window
+          editType={editType}
+          selected={selected}
+          show={windowShow}
+          content={content}
+          setContent={setContent}
+          seq={seq}
+          setSeq={setSeq}
+          annotations={annotations}
+          setAnnotations={setAnnotations}
+          onClose={() => setWindowShow(false)}
+        />
       </Flex>
     </Flex>
   )
