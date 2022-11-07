@@ -89,7 +89,13 @@ const App: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Flex justify="center" direction="column" h="100%">
-        <TopBar setFiles={setFiles} />
+        <TopBar
+          name={name}
+          setFiles={setFiles}
+          files={files}
+          annotations={annotations}
+          seq={seq}
+        />
         <Flex
           w="100%"
           h="calc(100% - 3rem)"
