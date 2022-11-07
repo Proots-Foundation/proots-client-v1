@@ -1,3 +1,6 @@
+export function abbreviateAddress(address: string, size = 5) {
+  return address.slice(0, size) + '…' + address.slice(-size)
+}
 export const insertAt = (
   target: string,
   charToInsert: string,

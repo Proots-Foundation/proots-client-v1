@@ -3,6 +3,8 @@ import { useRef } from 'react'
 import { PlusSquareIcon } from '@chakra-ui/icons'
 import { Box, Flex, useDisclosure, Icon, Text } from '@chakra-ui/react'
 
+import WalletConnect from '../WalletConnect'
+
 type TopBarProps = {
   setFiles: (e: Event) => void
 }
@@ -69,6 +71,7 @@ const TopBar = ({ setFiles }: TopBarProps) => {
             }}
           />
         </Flex>
+        <WalletConnect />
       </Flex>
     </Box>
   )
