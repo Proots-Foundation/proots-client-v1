@@ -1,6 +1,5 @@
 
-🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬🧬
-![pRoots](https://shdw-drive.genesysgo.net/GQgzES46dokK55rXpNsKVynEevcztAqV2cHC2aB8PxTp/%E6%88%AA%E5%9C%96%202022-09-03%20%E4%B8%8B%E5%8D%882.47.58.png)
+![pRoots](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/homepage.png)
 
 
 >Fundamentally transform life sciences & democratize biotechnology to inspire creativity and improve lives by organizing life science change-makers and bioenthusiasts to build an inclusive global network, cultivate an accessible commons of knowledge and resources, launch community labs and projects, and enable local educators.   ----- [Global Community Bio](https://www.biosummit.org/statement-of-shared-purpose)
@@ -8,9 +7,7 @@
 
 ## Project
 
-**[pRoots](https://www.biocreator.tw/kit)** is a tool we build with web3 technology to store, share, annotate and learn genomic information. And we will aggregate the knowledge from the growing biocommunity and openbio projects with the DNA information as the cornerstone.
-
-
+**[pRoots](https://gitcoin.co/grants/7445/proots-empower-people-to-store-share-annotate-and)** is a tool we build with web3 technology to store, share, annotate and learn genomic information. And we will aggregate the knowledge from the growing biocommunity and openbio projects with the DNA information as the cornerstone.
 
 Biology is software encoded in DNA. And most of the information is not easy to store, share, and annotated in a more open manner. As the cost of DNA sequencing and synthesis dropping dramatically, the tools to empower people to store, share and annotate is critical. In another way, as more and more DAOs raise funds for bioscience development and decentralized science, there will be also the necessity to build the infrastructure to deal with the related genomic data. pRoots will let biolabs, DAOs and amateur bioscientists easily allocate the web3 resource as the functionality to deal their sharable knowledge of genomic information.
 
@@ -28,11 +25,32 @@ In order to bridge the global biocommunity and web3 frontier to push the boundar
 
  - Phase 1
    - people will use pRoots to store DNA data (fasta, fastq, bam and more) as easily as possible in a decentralized storage system.
-   - enable DAOs and scientists who received crypto funds can use our tools to store, share and annotate their genomic data in a web3 manner
-   - people can view their DNA data such as plasmids from a browser with a useful viewer and store the metadata in a decentralized way
-   - bridging the current open bio community such as global biocommunity, freegan, iGEM to provide they to use this tool to store, share, and annotate in pRoots
- - Phase 2
-   - provide an interactive way to let the genomic metadata connected and sharable, and aggregate the current important synthetic biology open plasmid data to bridge the web3 and current biocommunity.
+   - enable DAOs and scientists who received crypto funds can use our tools to store, share and annotate their genomic data in a web3 manner 
+   - people can view their DNA data such as plasmids from a browser with a useful viewer and store the metadata in a decentralized way 
+   - bridging the current open bio community such as global biocommunity, freegan, iGEM to provide they to use this tool to store, share, and annotate 
+   
+## Getting Started
+- [Demo Link](https://app.proots.dev/)
+### Development 
+
+```
+git clone https://github.com/Proots-Foundation/proots-client-v1.git proots_client_v1
+cd proots_clitent_v1
+yarn install
+yarn dev
+```
+the application of beta pRoots tools then run on [localhost:3000](https://localhost:3000)
+
+## Design of the pRoots phase I
+In the phase I sprint development of pRoots, we propose and design a IPLD plasmid data schema for this genomic data scenario.
+
+![design_1](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_1.png)
+![design_2](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_2.png)
+![design_3](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_3.png)
+![design_4](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_4.png)
 
 
-🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳
+
+   
+
+
