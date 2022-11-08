@@ -45,14 +45,17 @@ const TopBar = ({ setFiles, name, annotations, seq, files }: TopBarProps) => {
     if (account) {
       setLoading(true)
       const image = await fetch(Image.src)
-      console.log(image)
       const imgBlob = await image.blob()
-      console.log(imgBlob)
       const version = uuidv4()
-      const seqMetadata = parseSeqMetadata(version, account, name, seq, imgBlob)
-      console.log(seqMetadata)
+      const seqCID = await client.storeBlob(new Blob([seq]))
+      const seqMetadata = parseSeqMetadata(
+        version,
+        account,
+        name,
+        seqCID,
+        imgBlob,
+      )
       const metadata = await client.store(seqMetadata)
-      console.log(metadata)
 
       await send(account, metadata.url)
       for (let a in annotations) {
@@ -66,15 +69,13 @@ const TopBar = ({ setFiles, name, annotations, seq, files }: TopBarProps) => {
           imgBlob,
         )
         const metadata = await client.store(annotationMetadata)
+
         await send(account, metadata.url)
       }
       setLoading(false)
     }
   }
 
-  useEffect(() => {
-    console.log(state)
-  }, [state])
   return (
     <Box zIndex="99" position="relative" h="3rem" w="100%">
       <Flex
