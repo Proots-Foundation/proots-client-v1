@@ -28,9 +28,12 @@ In order to bridge the global biocommunity and web3 frontier to push the boundar
    - enable DAOs and scientists who received crypto funds can use our tools to store, share and annotate their genomic data in a web3 manner 
    - people can view their DNA data such as plasmids from a browser with a useful viewer and store the metadata in a decentralized way 
    - bridging the current open bio community such as global biocommunity, freegan, iGEM to provide they to use this tool to store, share, and annotate 
-   
+  - Log for phase 1 sprint v1
+  ![sprintv1](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/sprintv1.png)
 ## Getting Started
 - [Demo Link](https://app.proots.dev/)
+- [beta video](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/proots.mp4)
+
 ### Development 
 
 ```
@@ -48,7 +51,7 @@ Genomic data contain a wide range of sources, each will have its own user need a
 
 Plasmids are circular DNA and often size is much smaller, and originally found in the bacterial. Modern biotechnology use this plasmid structure of DNA to control and insert certain funtionality of sequence to manipulate the bacterial to produce biomateral, protein, circuit and so on.  Due to its characteristic of modular and small size, we can think plasmid as a codebase in the perspective of software engineer. Here in phase 1 sprint, we develop a data schema on plasmid data sharing and annotation with IPLD.
 
-![design_2](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_2.png)
+![design_2](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_2v1.png)
 DNA sequence contain only 4 letters such as A, T, C, G. and the basic sequence data format [fasta](https://en.wikipedia.org/wiki/FASTA) contain a header and the sequence data. And we can seperate the plasmid data into two kinds of different information. One is sequence data, contain the sequence information. Another is annotation, which will document the segment of sequence with biological functionality such as promoter, terminator, origin of replication, rbs and protein sequence itself.
 
 ![design_3](https://shdw-drive.genesysgo.net/6WSW4N85PxPUFVrjB41vicn5ZqZRWA4SDuqtczAnjtLA/design_3v1.png)
